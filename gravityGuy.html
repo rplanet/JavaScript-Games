@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio of Basic JavaScript Games</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="Gravity Guy/coins.js"></script>
+    <script src="Gravity Guy/gameFunctions.js"></script>
+    <script src="Gravity Guy/player.js"></script>
+    <script src="Gravity Guy/sketchGravity.js"></script>
+    <script src="Gravity Guy/wall.js"></script>
+
+</head>
+
+<body>
+    <h1> Portfolio of Basic JavaScript Games</h1>
+    <div id="log">
+        <h3> "Login" </h3>
+        <p>Username: </p><input id="userlogin" type=t ext name="userNameI"> <br>
+        <p> Password: </p><input id="userPassword" type="password" name="userPassI"> <br>
+    </div>
+    <div id="use">
+        <h3> "Sign Up" </h3>
+        <p> First Name: </p><input id="fName" type="text" name="firstName"> <br>
+        <p>Last Name: </p> <input id="lName" type="text" name="lastName"> <br>
+        <p> Username:</p> <input id="userLog" type="text" name="userName"> <br>
+        <p> Password:</p> <input id="userPass" type="password" name="passName"><br>
+    </div>
+    <p id="helloUser">
+    </p>
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home </a>
+        <a href="play.html"> Battleship V1</a>
+        <a href="play2.html"> Batlleship V2 </a>
+        <a href="gravityGuy.html">Gravity Guy </a>
+        <button id="login"> Login </button>
+        <button id="signUp"> Sign Up </button>
+    </div>
+    <p> This is a modified version of the popular game Gravity Guy.<br> To play the
+        game click play. Use the <b> right arrow key to move right<b>.<br> Use the
+        <b> space key to jump </b> Try not to go behind the left side of the canvas.
+    </p>
+    <p id="playerScore"> </p>
+</body>
+
+</html>
